@@ -1,0 +1,75 @@
+﻿  InputHandler.cpp
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\History.h(20,44): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "InputHandler.cpp")
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\History.h(21,60): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "InputHandler.cpp")
+  
+  main.cpp
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\History.h(20,44): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\History.h(21,60): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+  Terminal.cpp
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\History.h(20,44): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Terminal.cpp")
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\History.h(21,60): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Terminal.cpp")
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(6,27): error C2100: нельзя разыменовать операнд типа "History"
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(7,14): error C2512: InputHandler::InputHandler: нет подходящего конструктора по умолчанию
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(7,14):
+      при попытке сопоставить список аргументов "()"
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(7,16): error C2512: CommandManager: нет подходящего конструктора по умолчанию
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\CommandManager.h(10,7):
+       см. объявление "CommandManager"
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(13,3): error C2819: тип "InputHandler" не имеет перегруженный "operator ->"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\InputHandler.h(12,7):
+       см. объявление "InputHandler"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(13,3):
+      возможно, имеется в виду "."
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(13,15): error C2232: ->InputHandler::PollEvents: левый операнд имеет тип "class", используйте "."
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(14,3): error C2819: тип "TerminalRenderer" не имеет перегруженный "operator ->"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\TerminalRenderer.h(7,7):
+       см. объявление "TerminalRenderer"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(14,3):
+      возможно, имеется в виду "."
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(14,21): error C2039: "Update": не является членом "TerminalRenderer".
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\TerminalRenderer.h(7,7):
+       см. объявление "TerminalRenderer"
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,3): error C2819: тип "TerminalRenderer" не имеет перегруженный "operator ->"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\TerminalRenderer.h(7,7):
+       см. объявление "TerminalRenderer"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,3):
+      возможно, имеется в виду "."
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,19): error C2232: ->TerminalRenderer::Draw: левый операнд имеет тип "class", используйте "."
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,26): error C2819: тип "History" не имеет перегруженный "operator ->"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\History.h(4,7):
+       см. объявление "History"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,26):
+      возможно, имеется в виду "."
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,40): error C2232: ->History::GetHistory: левый операнд имеет тип "class", используйте "."
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,56): error C2819: тип "InputHandler" не имеет перегруженный "operator ->"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\InputHandler.h(12,7):
+       см. объявление "InputHandler"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,56):
+      возможно, имеется в виду "."
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,68): error C2232: ->InputHandler::GetInput: левый операнд имеет тип "class", используйте "."
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,82): error C2819: тип "InputHandler" не имеет перегруженный "operator ->"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\InputHandler.h(12,7):
+       см. объявление "InputHandler"
+      C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,82):
+      возможно, имеется в виду "."
+  
+C:\Users\Mechrevo\source\repos\FourtyOneOS\FourtyOneOS\Terminal.cpp(15,94): error C2232: ->InputHandler::GetCursorPos: левый операнд имеет тип "class", используйте "."
